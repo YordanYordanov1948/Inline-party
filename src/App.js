@@ -14,8 +14,8 @@ const mealHeading = {
 
 function App() {
   return (
-    <div style={wrapper}>
-      <div>
+    <div className="App">
+      <div style={wrapper}>
         <h3 style={mealHeading}>Sushi</h3>
         <div className="description">I prefer steak than sushi.</div>
         <div className="price">$9.99</div>
