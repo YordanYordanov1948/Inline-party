@@ -12,12 +12,16 @@ const mealHeading = {
   margin: "0 0 0.25rem 0",
 };
 
+const description = {
+  fontStyle: "italic",
+};
+
 function App() {
   return (
     <div className="App">
       <div style={wrapper}>
         <h3 style={mealHeading}>Sushi</h3>
-        <div className="description">I prefer steak than sushi.</div>
+        <div style={description}>I prefer steak than sushi.</div>
         <div className="price">$9.99</div>
       </div>
     </div>
